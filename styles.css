@@ -1,3 +1,68 @@
-nav ul{
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
+body{
+  background-color: whitesmoke;
+}
+
+main{
+  width:70vw;
+  margin: auto;
+  background-color: rgb(234, 234, 234);
+  background-image: url("./paperBackgroung.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 3em;
+}
+
+nav{
+  background-color: rgb(191, 192, 192);
+  display: flex;
+  justify-content: end;
+}
+
+nav a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 20px 40px;
+  background-color: rgb(188, 188, 188);
+  background-color: rgb(132, 135, 135);
+
+}
+hgroup{
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.3em 0em;
+  background-color: rgb(194, 194, 194);
+}
+
+article h2{
+  color: rgb(30, 57, 82);
+}
+
+section{
+  margin :1.3em 0em;
+}
+
+hgroup h1{
+  font-size: 50px;
+}
+
+article{
+  box-sizing: border-box;
+  background-color: rgb(217, 218, 219);
+}
+p{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3em;
+  color: #444;
+  margin :1em 0em;
 }
