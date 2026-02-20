@@ -1,0 +1,35 @@
+body > header{
+  height: 25vh;
+}
+
+nav{
+  height: 20%;
+  background-color: rgb(250, 224, 138);
+  display: flex;
+  justify-content: end;
+}
+
+nav a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 15px 35px;
+  background-color: rgb(23, 119, 221);
+  color: white;
+}
+
+hgroup h1{
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+}
+
+hgroup{
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(173, 226, 159);
+  border:2px solid rgb(165, 164, 164)
+}

@@ -1,80 +1,15 @@
+@import url(stylesheets/pageFooter.css);
+@import url(stylesheets/pageHeader.css);
+@import url(stylesheets/pageContent.css);
+
 *{
   margin: 0px;
   padding: 0px;
 }
 
 body{
-  width:60vw;
-  margin: 20vh auto;
-  background-color: rgb(234, 234, 234);
-  background-image: url("./paperBackgroung.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100vw;
   box-sizing: border-box;
-  box-shadow: 2px 2px 10px 4px rgb(113, 112, 112);
-  padding: 5em 3em ;
 }
 
-main > header{
-  border-top: 2px solid rgb(150, 150, 150);
-  
-}
 
-nav{
-  background-color: rgb(250, 224, 138);
-  display: flex;
-  justify-content: end;
-}
-
-nav a{
-  text-align: center;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 15px 35px;
-  background-color: rgb(23, 119, 221);
-  color: white;
-}
-
-hgroup{
-  display: flex;
-  height: 20vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1.3em 0em;
-  background-color: rgb(173, 226, 159);
-  border:2px solid rgb(165, 164, 164)
-}
-
-hgroup h1{
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
-}
-
-article h2{
-  color: rgb(202, 74, 74);
-}
-
-section{
-  margin :1.3em 0em;
-}
-
-hgroup h1{
-  font-size: 50px;
-}
-
-article{
-  box-sizing: border-box;
-  background-color: rgb(217, 218, 219);
-}
-/* aside{
-  float: right;
-  width: 30px;
-} */
-article > p{
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.3em;
-  color: #444;
-  margin :1em 0em;
-}
