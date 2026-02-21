@@ -1,8 +1,9 @@
 body > footer{
+  border-top: 2px solid rgb(198, 198, 198);
   height: 15vh;
-  background-color: rgb(35, 35, 35);
+  background-color: rgb(30, 30, 30);
   padding: 2em;
-  color:rgb(192, 190, 190);
+  color:rgb(191, 187, 187);
 }
 
 body > footer:nth-child{
@@ -17,7 +18,7 @@ address{
 }
 
 body > footer section:nth-child(1){
-  border-right: 2px solid rgb(238, 237, 237);
+  border-right: 2px solid rgb(0, 0, 0);
 }
 
 body > footer section{
@@ -26,9 +27,8 @@ body > footer section{
 }
 
 body > footer > p{
-  border-top: 2px solid rgb(120, 116, 116);
+  border-top: 2px solid rgb(233, 231, 231);
   padding: 1em 0em;
-  width: 60%;
   margin: auto;
   text-align: center;
 }

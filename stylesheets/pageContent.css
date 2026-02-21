@@ -1,26 +1,51 @@
 main{
   display: flex;
+  width: 80vw;
+  margin:  0.4em  auto;
 }
 img{
   width: 50%;
 }
 
 article {
-  padding: 2em;
   width: 85%;
+  padding: 1em;
+  background-color: rgb(255, 252, 252);
+  border: 1px solid rgb(194, 193, 193);
 }
 article > section{
-  margin : 2em
+  margin : 2em 0em;
 }
 
 article section p{
   color: #454444;
   font-size: 20px;
 }
+article h2{
+  font-size: 35px;
+  color: rgb(12, 12, 96);
+}
+article h3{
+  font-size: 26px;
+  margin:0.5em 0em;
+  color: rgb(1, 44, 16);
+  
+
+}
 
 aside{
   width: 15%;
-  background-color: antiquewhite;
-  float: right;
-  border-left: 2px solid black ;
+  border-left: 2px solid rgb(234, 229, 229) ;
+  padding: 0px 10px;
+  background-color: rgb(237, 237, 237);
+}
+aside img {
+  width: 100%;
+}
+details{
+  background-color: rgb(255, 237, 188);
+  display:inline-block;
+  border-left: 3px solid black;
+  padding-left: 2px;
+  margin: 0.5em ;
 }
