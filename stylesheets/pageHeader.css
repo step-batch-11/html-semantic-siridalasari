@@ -1,12 +1,15 @@
 body > header{
   height: 25vh;
+  margin-bottom: 1vh;
+  background-color: rgb(176, 182, 180);
 }
 
 nav{
-  height: 20%;
-  background-color: rgb(250, 224, 138);
+  height: 25%;
   display: flex;
-  justify-content: end;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
 }
 
 nav a{
@@ -14,14 +17,16 @@ nav a{
   text-decoration: none;
   font-size: 24px;
   padding: 15px 35px;
-  background-color: rgb(23, 119, 221);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 hgroup h1{
-  color: rgb(0, 0, 0);
+  color: rgb(250, 250, 250);
   font-size: 50px;
   text-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+}
+hgroup h2{
+  color: rgb(201, 210, 198);
 }
 
 hgroup{
@@ -30,6 +35,6 @@ hgroup{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(173, 226, 159);
+  background-color: rgb(51, 51, 51);
   border:2px solid rgb(165, 164, 164)
 }

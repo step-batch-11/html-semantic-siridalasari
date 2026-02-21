@@ -1,3 +1,26 @@
 main{
-  height: 60vh;
+  display: flex;
+}
+img{
+  width: 50%;
+}
+
+article {
+  padding: 2em;
+  width: 85%;
+}
+article > section{
+  margin : 2em
+}
+
+article section p{
+  color: #454444;
+  font-size: 20px;
+}
+
+aside{
+  width: 15%;
+  background-color: antiquewhite;
+  float: right;
+  border-left: 2px solid black ;
 }
